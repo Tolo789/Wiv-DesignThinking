@@ -1,0 +1,48 @@
+
+    <div class="container" data-ng-init="bkg()">
+        <div class="row moveLeft">
+            <div class="col-xs-12">
+                <img src="img/logo.svg" class="centered" height=70 width=70>
+            </div>
+            <div class="col-xs-8 col-md-6 col-xs-offset-2 col-md-offset-3" ng-controller="AddCompCtrl">
+                <form class="form-horizontal centered" role="form" name="compForm" id="compForm" ng-submit="submitSkill()" novalidate>
+                    <div class="form-group">
+                        <div class="row">
+                            <h3 class="text-center" style="color:#F4551E">Quelles sont vos compétences ?</h3>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <input type="text" class="form-control" id="annonceTags" name="annnonceTags" rows="12" placeholder="Mes compétences" ng-model="tmp.nom" required></input>
+                            </div>
+                            <div class="col-xs-2">
+                                <button class="btn btn-primary" type="submit" ng-disabled="compForm.$invalid">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4" ng-repeat="item in competences">
+                                <a ng-click="select(item)" ng-show="item.active">
+                                    <p class="text-center rdv amoi">{{item.nom}}</p>
+                                </a>
+                                <a ng-click="select(item)" ng-hide="item.active">
+                                    <p class="text-center rdv namoi">{{item.nom}}</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <a href="#/interets" ng-click="noBkg()">
+                                <img src="pictos/fleche.svg" class="centered" height=45 width=45>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

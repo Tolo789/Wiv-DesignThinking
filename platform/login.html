@@ -1,0 +1,33 @@
+
+    <div class="container" data-ng-init="bkg()">
+        <div class="row moveLeft">
+            <div class="col-xs-12">
+                <img src="img/logo.svg" class="centered" height=70 width=70>
+            </div>
+            <div class="col-xs-8 col-md-6 col-xs-offset-2 col-md-offset-3">
+                <form class="form-horizontal centered" role="form" name="loginForm" id="loginForm" ng-submit="choseSkill()" novalidate>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Nom" ng-model="user.lastName" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Prenom" ng-model="user.firstName" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <a href="#/competences" ng-click="noBkg()">
+                                <img src="pictos/fleche.svg" class="centered" height=45 width=45>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

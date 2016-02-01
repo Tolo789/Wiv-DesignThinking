@@ -1,0 +1,340 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 0px 0px;
+  border-bottom: 1px ridge;
+  min-height: 300px;
+}
+
+#beeHive{
+  position: relative;
+  top: 5px;
+}
+
+.navbar-label {
+  position: relative;
+  top: 23px;
+  left: 15px;
+}
+
+#smallLogo{
+  position: relative;
+  top: 0px;  
+}
+
+#bigLogo{
+  position: relative;
+  left: -30px;  
+  top: 10px;
+}
+
+#userPhotoMini {
+
+  height: 50px;
+  width: 50px;
+}
+
+#userPhoto {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 5px;
+}
+
+#announcement {
+  background-color: #EFEFED;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#annonceText {
+  max-height: 140px;
+}
+
+#annonceTags {
+  max-height: 70px;
+}
+
+.circle-mini {
+  /* div height to be the same as width*/
+  padding-top: 100%;
+  max-height: 100px;
+  max-width: 100px;
+  width:100px;
+  height:auto;
+  display:block;
+
+  /* make it a cirkle */
+  border-radius: 50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimention to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.circle-user {
+  /* div height to be the same as width*/
+  padding-top: 100%;
+
+  /* make it a cirkle */
+  border-radius: 50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimention to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.circle-event {
+  /* div height to be the same as width*/
+  padding-top: 100%;
+
+  /* make it a cirkle */
+  border-radius: 50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimention to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: -20px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#searchRow {
+  margin: 0px auto;
+  padding: 70px 30px;
+  color: floralwhite;
+}
+
+#search {
+  border: none;
+  box-shadow: none;
+  border-bottom: 2px solid #FFC022;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#loupe {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+#poster {
+  background-color: #F4551E;
+  color: white;
+}
+
+#next {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #F4551E;
+  color: white;
+}
+
+#plus {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  bottom: 50px;
+}
+
+#fannie {
+  padding-top: 10px;
+}
+
+.carousel-inner {
+  position: relative;
+  padding-top: 20px;
+}
+
+.navbar-inverse {
+  background: #47D3C2;
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+
+.navbar-inverse .navbar-nav > li > div > div > div > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > div > div > div > a:hover {
+    color: #43317C;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #43317C;
+}
+
+a {
+  color: #43317C;
+}
+
+address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0px;
+}
+
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+
+.tab-content {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.affix {
+  top: 100px;
+}
+
+#carouselButtons {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.circle-announcement {
+  /* make it responsive */
+  max-width: 100%;
+  width:100%;
+  height:auto;
+  display:block;
+  /* div height to be the same as width*/
+  padding-top:100%;
+  /* make it a cirkle */
+  border-radius:50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimention to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+}
+
+.rdv {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  min-width: 90px;
+  padding: 6px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.aussi {
+  background-color: #FFC022;
+}
+
+.faitnon {
+  background-color: #43317C;
+}
+
+.amoi {
+  background-color: #F4551E;
+}
+
+.namoi {
+  color: #43317C;
+  background-color: #EFEFED;
+}
+
+.evenement {
+  background-color: #47D3C2;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+}
+
+#loginForm {
+  position: relative;
+  padding-top: 50px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.moveLeft {
+  position: relative;
+  left: -7px;
+}
